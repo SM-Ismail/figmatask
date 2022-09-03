@@ -26,10 +26,23 @@
     font-size: 25px;
     margin:20px 0px 50px 0px;
  }
+ /* .container > div:nth-child(2) > div > h6{
+    font-size: 15px;
+    margin:20px 0px 50px 0px;
+ } */
+ .container > div:nth-child(2) > div > p:nth-child(3){
+    font-size: 15px;
+    text-align: left;
+    margin-left: 122px ;
+    
+ }
+ .container > div:nth-child(2) > div > p:nth-child(3) > span{
+    margin-right: 20px;
+ }
 .container > div:nth-child(2) > div > p{
    font-size: 15px;
-   /* margin: 50px; */
-   /* text-align: left; */
+   text-align: left;
+   margin-left: 160px ;
 }
 .container > div:nth-child(2) > div:nth-child(1)  > h3{
     font-size: 30px;
