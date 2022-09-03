@@ -1,0 +1,43 @@
+.contain{
+    display: flex;
+    flex-direction: row;
+}
+.contain > div{
+    flex: 1;
+}
+.contain > div:nth-child(1){
+    text-align: left;
+    margin: 30px 0px 0px 100px;
+}
+.contain > div:nth-child(2) > img{
+    height: 500px;
+    width: 750px;
+    margin: 0px 50px 0px 0px;
+}
+.contain > div:nth-child(1) > h1{
+    color: #0B132A;
+    font-size: 50px;
+    margin: 40px 0px 0px 0px;
+}
+.contain > div:nth-child(1) > h1 > span{
+    color: 0B132A;
+    font-weight: 800;
+}
+.contain > div:nth-child(1) > p > span{
+    color: 0B132A;
+    font-weight: 800;
+}
+.contain > div:nth-child(1) > button{
+    color: #FFFFFF;
+    background-color: #F53838;
+    height: 50px;
+    width: 230px;
+    border-radius: 4.7px;
+    border: 1px solid #F53838;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 50px 0px 0px 0px;
+}
+.contain > div:nth-child(1) > p{
+    margin: 50px 0px 0px 0px;
+}

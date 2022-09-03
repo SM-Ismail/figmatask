@@ -1,0 +1,19 @@
+.contain{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 100px;
+}
+.contain > div {
+    flex: 0.33;
+    margin: 5px 20px 5px 10px;
+}
+.contain > div > div{
+    float: left;
+    width: 50%;
+}
+.contain > div > div:nth-child(1){
+     margin: 30px;
+}
+.contain > div > div:nth-child(2){
+    margin: 0px 50px;
+}

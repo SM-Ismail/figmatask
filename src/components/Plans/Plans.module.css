@@ -1,0 +1,75 @@
+.container{
+
+}
+.container > div:nth-child(1)> h2{
+    font-size: 40px;
+}
+.container > div:nth-child(1)> p{
+    font-size: 20px;
+}
+.container > div:nth-child(2){
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    padding: 100px 100px 50px 100px;
+}
+.container > div:nth-child(2) > div{
+    border: 2px solid #DDDDDD;
+    height: 800px;
+    border-radius: 5px;
+}
+.container > div:nth-child(2) > div > img{
+   height: 200px;
+   width: 200px;
+}
+.container > div:nth-child(2) > div > h5{
+    font-size: 25px;
+    margin:20px 0px 50px 0px;
+ }
+.container > div:nth-child(2) > div > p{
+   font-size: 15px;
+   /* margin: 50px; */
+   /* text-align: left; */
+}
+.container > div:nth-child(2) > div:nth-child(1)  > h3{
+    font-size: 30px;
+    margin-top: 150px;
+}
+.container > div:nth-child(2) > div:nth-child(2)  > h3{
+    font-size: 30px;
+    margin-top: 115px;
+}
+.container > div:nth-child(2) > div:nth-child(3)  > h3{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.container > div:nth-child(2) > div:nth-child(1) > button{
+    font-size: 20px;
+    font-weight: 800;
+    height: 60px;
+    width: 250px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    color: #F53838;
+    background-color: #FFFF;
+}
+.container > div:nth-child(2) > div:nth-child(2) > button{
+    font-size: 20px;
+    font-weight: 800;
+    height: 60px;
+    width: 250px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    color: #F53838;
+    background-color: #FFFF;
+}
+.container > div:nth-child(2) > div:nth-child(3) > button{
+    font-size: 20px;
+    font-weight: 800;
+    height: 60px;
+    width: 250px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    color: #FFFF;
+    background-color: #F53838;
+}

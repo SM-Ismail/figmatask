@@ -1,0 +1,48 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation > div {
+    margin: 55px 120px 0px 50px;
+}
+
+.navigation > div:nth-child(1){
+    margin: 40px 40px 0px 90px;
+}
+.navigation > div:nth-child(3){
+    margin: 45px 100px 0px 20px;
+}
+.navigation > div > a {
+    padding: 0px 25px;
+    font-size: large;
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.navigation > div > button{
+    margin: 0px 30px 0px 0px;
+}
+.navigation > div > button:nth-child(1){
+    color: #0B132A;
+    font-size: 20px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.navigation > div > button:nth-child(2){
+    color: #F53855;
+    font-size: 20px;
+    border: 0.469826px solid #F53855;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 45px;
+    border-radius: 23px;
+}
+.contain > div:nth-child(2)> img{
+    height: 40px;
+    width: 40px;
+} 
+
+.contain > div:nth-child(2) {
+    margin: 0px 500px 5px 650px;
+}

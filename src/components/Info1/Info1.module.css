@@ -1,0 +1,13 @@
+.contain{
+    display: flex;
+    flex-direction: row;
+}
+.contain > div{
+   
+    flex: 1;
+    
+}
+.contain > div:nth-child(1){
+    padding: 15px;
+    margin: 20px 0px;
+}
